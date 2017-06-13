@@ -4,7 +4,7 @@
 
 <img src="" alt="">
 
-Development of this component is under progress.
+Development of this component is in-progress.
 
 ### Attributes
 
@@ -32,7 +32,7 @@ Not identified yet.
 
 ### Browser/platform specification
 
-Intended to develop standard Adapt browser/devices specifications. Development of this component is under progress.
+Intended to develop standard Adapt browser/devices specifications. Development of this component is in-progress.
 
 ----------------------------
 **Version number:**  0.0.1 
