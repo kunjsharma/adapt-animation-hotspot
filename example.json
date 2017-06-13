@@ -4,54 +4,58 @@
   "_parentId": "b-05",
   "_type": "component",
   "_component": "animation-hotspot",
-  "_animation": true,
-  "_delay": "1000",
   "_layout": "full",
-  "title": "Linear Animation",
+  "_animation": true,
+  "_delay": 800,
+  "_navigation": "linear",
+  "title": "Animation Hotspot",
   "body": "",
   "_bg": "assets/bg.png",
-  "_items": [
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/0.png",
-        "alt": ""
-      }
-    },
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/1.png",
-        "alt": ""
-      }
-    },
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/2.png",
-        "alt": ""
-      }
-    },
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/3.png",
-        "alt": ""
-      }
-    },
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/4.png",
-        "alt": ""
-      }
-    },
-    {
-      "text": "",
-      "_graphic": {
-        "_src": "assets/5.png",
-        "alt": ""
-      }
+  "_items": [{
+    "_graphic": {
+      "_highlight": "assets/.png",
+      "_src": "assets/.png",
+      "alt": ""
     }
+  },
+  {
+    "_graphic": {
+      "_highlight": "assets/.png",
+      "_src": "assets/.png",
+      "alt": ""
+    }
+  },
+  {
+    "_graphic": {
+      "_highlight": "assets/.png",
+      "_src": "assets/.png",
+      "alt": ""
+    }
+  }],
+  "_hotspots": [{
+      "_top": "6%",
+      "_left": "37%",
+      "_width": "27%",
+      "_height": "27%",
+      "_borderRadius": "100px"
+  },
+  {
+      "_top": "30%",
+      "_left": "69%",
+      "_width": "27%",
+      "_height": "27%",
+      "_borderRadius": "100px"
+  },
+  {
+      "_top": "67%",
+      "_left": "57%",
+      "_width": "27%",
+      "_height": "27%",
+      "_borderRadius": "100px"
+  }],
+  "_feedback": [
+      "",
+      "",
+      ""
   ]
 }

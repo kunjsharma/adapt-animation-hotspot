@@ -9,7 +9,7 @@ define(function (require) {
     var Handlebars = require('handlebars');
     var AnimationHotspot = ComponentView.extend({
         ele: {
-
+            //Elements cache
         },
         vars: {
             m_nFadeInTime: 2000
