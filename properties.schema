@@ -1,0 +1,81 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
+    },
+    "_bg": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "validators": [],
+      "help": "Background image requires to display component correctly in responsive.",
+      "translatable": false
+    },
+    "_items": {
+      "type":"array",
+      "required":true,
+      "title": "Items",
+      "help": "Each item represents one choice for the animation frames and contains values for text and _graphic.",
+      "items": {
+        "type":"object",
+        "required":true,
+        "properties":{
+          "text": {
+            "type":"string",
+            "required":"optional",
+            "default": "",
+            "title": "Item Text",
+            "inputType": "Text",
+            "validators": [],
+            "help": "This text will display as an animation frame",
+            "translatable": true
+          },
+          "_graphic": {
+            "type":"object",
+            "required":true,
+            "title": "Graphic",
+            "properties":{
+              "alt": {
+                "type":"string",
+                "required":false,
+                "default": "",
+                "title": "Alternative Text",
+                "inputType": "Text",
+                "validators": [],
+                "help": "The alternative text for this image",
+                "translatable": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

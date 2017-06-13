@@ -1,0 +1,24 @@
+{
+  "name": "adapt-animation-hotspot",
+  "homepage": "https://github.com/kunjsharma/adapt-animation-hotspot",
+  "authors": [
+    "Kunj B Sharma <kunjsharma@hotmail.com>"
+  ],
+  "description": "A simple adapt component that creates an animation sequence in linear way by images/text added in it.",
+  "main": "/js/adapt-animation-hotspot.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c26ab058-af44-4d0e-9ce7-72c4d9d24a66"
+  },
+  "_source": "git://github.com/kunjsharma/adapt-animation-hotspot.git",
+  "_target": "*",
+  "_originalSource": "adapt-animation-hotspot",
+  "_direct": true
+}
