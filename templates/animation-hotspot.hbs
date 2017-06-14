@@ -5,22 +5,22 @@
         <div class="animation-hotspot-widget-container">
             <img class="animation-hotspot-widget-bg" src="{{_bg}}"/>
             <div class="animation-hotspot-item-holder">
-                
+                {{! Images }}
                 <div class="animation-hotspot-item">
                     {{#each _items}}
                         <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}" tabindex="0"/>
                     {{/each}}
                 </div>
-                
+                {{! Hotspot highlight images (optional) }}
                 <div class="animation-hotspot-highlight">
                     {{#each _items}}
                         {{#if _graphic._highlight}}<img src="{{_graphic._highlight}}" alt="" title="" tabindex="-1"/>{{/if}}
                     {{/each}}
                 </div>
-
+                {{! Hotspots }}
                 <div class="animation-hotspot-hotspot">
                     {{#each _hotspots}}
-                        <div class="hotspot" style="top:{{_top}};left:{{_left}};width:{{_width}};height:{{_height}}; {{#if _borderRadius}} border-radius: {{_borderRadius}};{{/if}} ">{{@index}}</div>
+                        <div class="hotspot" style="top:{{_top}};left:{{_left}};width:{{_width}};height:{{_height}}; {{#if _borderRadius}} border-radius: {{_borderRadius}};{{/if}} "></div>
                     {{/each}}
                 </div>
             </div>
