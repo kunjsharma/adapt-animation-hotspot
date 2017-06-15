@@ -2,7 +2,7 @@
 
 **adapt-animation-hotspot** A component that have images and hotspots over that enables a user to click and display a detailed popup.
 
-<img src="assets/animation-hotspot.gif" alt="animation-hotspot" style="height:100px;">
+<img src="assets/animation-hotspot.gif" alt="animation-hotspot" style="height:100px; float:right;">
 
 Development of this component is in-progress.
 
@@ -22,7 +22,7 @@ Development of this component is in-progress.
 
 **_items** (array): Each *item* represents one choice for the animation frames and contains values for **_graphic** and **_highlight** if required.
 
-**_hotspots** (array): Each *_hotspots* specifies the position of the hotspot area and border radius if required.
+**_hotspots** (array): Each _hotspot specifies the dimension, position and border radius (optional) of the hotspot.
 
 **_feedback** (array): Feedback popup text opens when click on hotspot.
 
