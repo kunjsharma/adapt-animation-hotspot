@@ -16,7 +16,7 @@ define(function (require) {
         },
 
         events: {
-            'click .hotspot':'onHotspotClick'
+            'click .hotspot, touchend .hotspot':'onHotspotClick'
         },
 
         preRender: function() {
