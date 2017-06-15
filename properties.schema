@@ -38,6 +38,30 @@
       "help": "Background image requires to display component correctly in responsive.",
       "translatable": false
     },
+    "_animation": {
+      "type": "boolean",
+      "required": true,
+      "default": "",
+      "validators": [],
+      "help": "",
+      "translatable": false
+    },
+    "_delay": {
+      "type": "number",
+      "required": true,
+      "default": "",
+      "validators": [],
+      "help": "",
+      "translatable": false
+    },
+    "_navigation": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "validators": [],
+      "help": "linear/random",
+      "translatable": false
+    },
     "_items": {
       "type":"array",
       "required":true,
@@ -47,16 +71,6 @@
         "type":"object",
         "required":true,
         "properties":{
-          "text": {
-            "type":"string",
-            "required":"optional",
-            "default": "",
-            "title": "Item Text",
-            "inputType": "Text",
-            "validators": [],
-            "help": "This text will display as an animation frame",
-            "translatable": true
-          },
           "_graphic": {
             "type":"object",
             "required":true,
@@ -76,6 +90,65 @@
           }
         }
       }
+    },
+    "_highlight": {
+      "type":"object",
+      "required":true,
+      "title": "Highlight",
+      "properties":{
+       "label": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "validators": [],
+          "help": "ARIA label",
+          "translatable": true
+        },
+       "top": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "validators": [],
+          "help": "coordinates",
+          "translatable": false
+        },
+       "left": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "validators": [],
+          "help": "coordinates",
+          "translatable": false
+        },
+       "width": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "validators": [],
+          "help": "dimension",
+          "translatable": false
+        },
+       "height": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "validators": [],
+          "help": "dimension",
+          "translatable": false
+        },
+       "border-radius": {
+          "type": "string",
+          "required": optional,
+          "default": "",
+          "validators": [],
+          "help": "",
+          "translatable": false
+        }
+      }
+    },
+    "_feedback": {
+      "type":"object",
+      "required":true,
     }
   }
 }

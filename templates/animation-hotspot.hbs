@@ -8,7 +8,7 @@
                 {{! Images }}
                 <div class="animation-hotspot-item">
                     {{#each _items}}
-                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}" tabindex="0"/>
+                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}"/>
                     {{/each}}
                 </div>
                 {{! Hotspot highlight images (optional) }}
@@ -20,7 +20,7 @@
                 {{! Hotspots }}
                 <div class="animation-hotspot-hotspot">
                     {{#each _hotspots}}
-                        <div class="hotspot" style="top:{{_top}};left:{{_left}};width:{{_width}};height:{{_height}}; {{#if _borderRadius}} border-radius: {{_borderRadius}};{{/if}} "></div>
+                        <div class="hotspot" style="top:{{_top}};left:{{_left}};width:{{_width}};height:{{_height}}; {{#if _borderRadius}} border-radius: {{_borderRadius}};{{/if}} " tabindex="0" aria-label="{{label}}" role="button"></div>
                     {{/each}}
                 </div>
             </div>

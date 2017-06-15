@@ -1,60 +1,63 @@
 //component.json
 {
-  "_id": "c-05",
-  "_parentId": "b-05",
-  "_type": "component",
-  "_component": "animation-hotspot",
-  "_layout": "left",
-  "_animation": true,
-  "_delay": 800,
-  "_navigation": "",
-  "title": "Animation Hotspot",
-  "body": "",
-  "_bg": "assets/co-05-00.png",
-  "_items": [{
-    "_graphic": {
-      "_highlight": "",
-      "_src": "assets/co-05-01.png",
-      "alt": ""
-    }
-  },
-  {
-    "_graphic": {
-      "_highlight": "",
-      "_src": "assets/co-05-02.png",
-      "alt": ""
-    }
-  },
-  {
-    "_graphic": {
-      "_highlight": "",
-      "_src": "assets/co-05-03.png",
-      "alt": ""
-    }
-  }],
-  "_hotspots": [{
-      "_top": "41%",
-      "_left": "21%",
-      "_width": "21%",
-      "_height": "41%"
-  },
-  {
-      "_top": "16%",
-      "_left": "58%",
-      "_width": "21%",
-      "_height": "66%",
-      "_borderRadius": "100px"
-  },
-  {
-      "_top": "16%",
-      "_left": "21%",
-      "_width": "21%",
-      "_height": "21%",
-      "_borderRadius": "100px"
-  }],
-  "_feedback": [
-      "<b>Feedback Title 1</b><br><br>Feedback text 1",
-      "<b>Feedback Title 2</b><br><br>Feedback text 2",
-      "<b>Feedback Title 3</b><br><br>Feedback text 3"
-  ]
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "animation-hotspot",
+    "_layout": "left",
+    "_animation": true,
+    "_delay": 800,
+    "_navigation": "",
+    "title": "Animation Hotspot",
+    "body": "",
+    "_bg": "assets/co-05-00.png",
+    "_items": [{
+        "_graphic": {
+            "_highlight": "",
+            "_src": "assets/co-05-01.png",
+            "alt": ""
+        }
+    },
+    {
+        "_graphic": {
+            "_highlight": "",
+            "_src": "assets/co-05-02.png",
+            "alt": ""
+        }
+    },
+    {
+        "_graphic": {
+            "_highlight": "",
+            "_src": "assets/co-05-03.png",
+            "alt": ""
+        }
+    }],
+    "_hotspots": [{
+        "label": "Hotspot ARIA label 1",
+        "_top": "41%",
+        "_left": "21%",
+        "_width": "21%",
+        "_height": "41%"
+    },
+    {
+        "label": "Hotspot ARIA label 2",
+        "_top": "16%",
+        "_left": "58%",
+        "_width": "21%",
+        "_height": "66%",
+        "_borderRadius": "100px"
+    },
+    {
+        "label": "Hotspot ARIA label 3",
+        "_top": "16%",
+        "_left": "21%",
+        "_width": "21%",
+        "_height": "21%",
+        "_borderRadius": "100px"
+    }],
+    "_feedback": [
+        "<b>Feedback Title 1</b><br><br>Feedback text 1",
+        "<b>Feedback Title 2</b><br><br>Feedback text 2",
+        "<b>Feedback Title 3</b><br><br>Feedback text 3"
+    ]
 }
