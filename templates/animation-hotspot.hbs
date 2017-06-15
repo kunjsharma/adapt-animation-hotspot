@@ -8,13 +8,13 @@
                 {{! Images }}
                 <div class="animation-hotspot-item">
                     {{#each _items}}
-                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}"/>
+                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}" tabindex="-1" aria-hidden="true"/>
                     {{/each}}
                 </div>
                 {{! Hotspot highlight images (optional) }}
                 <div class="animation-hotspot-highlight">
                     {{#each _items}}
-                        {{#if _graphic._highlight}}<img src="{{_graphic._highlight}}" alt="" title="" tabindex="-1"/>{{/if}}
+                        {{#if _graphic._highlight}}<img src="{{_graphic._highlight}}" alt="" title="" tabindex="-1" aria-hidden="true"/>{{/if}}
                     {{/each}}
                 </div>
                 {{! Hotspots }}
