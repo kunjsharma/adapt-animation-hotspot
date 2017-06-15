@@ -1,8 +1,8 @@
 # adapt-animation-hotspot  
 
-**adapt-animation-hotspot** A component that have images and hotspots over that enables a user to click and display a detailed popup.
-
 <img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="150px">
+
+**adapt-animation-hotspot** A component that have images and hotspots over that enables a user to click and display a detailed popup.
 
 Development of this component is in-progress.
 
