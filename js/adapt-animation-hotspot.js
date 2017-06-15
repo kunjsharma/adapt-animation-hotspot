@@ -26,13 +26,17 @@ define(function (require) {
 
         checkIfResetOnRevisit: function() {
             var isResetOnRevisit = this.model.get('_isResetOnRevisit');
-
+			this.model.set('isAnimated', false);
             // If reset is enabled set defaults
             if (isResetOnRevisit) {
                 this.model.reset(isResetOnRevisit);
 
                 _.each(this.model.get('_hotspots'), function(item) {
                     item._isVisited = false;
+                });
+
+				this.$(".animation-hotspot-item img").css({
+                    "opacity": 0
                 });
             }
         },
@@ -52,22 +56,25 @@ define(function (require) {
             }
             var _oThisLevel0 = this, _nDelay = Number(this.model.get('_delay')), _nTimeOutId;
             this.$(".animation-hotspot-widget").bind('inview', function (event, visible) {
-                if (visible == true) {
-                    var _oItem = $(this).find('.animation-hotspot-item img'), _nItems = _oItem.length;
-                    _oItem.each(function (index) {
-                        var _oThisLevel1 = this;
-                        _nTimeOutId = setTimeout(function() {
-                            $(_oThisLevel1).animate({
-                                opacity: 1
-                            }, {duration: _nDelay, queue: false, complete: function() {
-                                if (index == (_nItems - 1)) {
-                                    _oThisLevel0.initHotspots();
-                                    clearTimeout(_nTimeOutId);
-                                }
-                            } });
-                        }, _nDelay * (index/2))
-                    });
-                }
+				if(_oThisLevel0.model.get('isAnimated') == false) {
+	                if (visible == true) {
+	                    var _oItem = $(this).find('.animation-hotspot-item img'), _nItems = _oItem.length;
+	                    _oItem.each(function (index) {
+	                        var _oThisLevel1 = this;
+	                        _nTimeOutId = setTimeout(function() {
+	                            $(_oThisLevel1).animate({
+	                                opacity: 1
+	                            }, {duration: _nDelay, queue: false, complete: function() {
+	                                if (index == (_nItems - 1)) {
+	                                    _oThisLevel0.initHotspots();
+	                                    clearTimeout(_nTimeOutId);
+										_oThisLevel0.model.set('isAnimated', true);
+	                                }
+	                            } });
+	                        }, _nDelay * (index/2))
+	                    });
+	                }
+				}
             });
         },
 
