@@ -11,7 +11,8 @@
     "main": "/js/adapt-animation-hotspot.js",
     "keywords": [
         "adapt-plugin",
-        "adapt-component"
+        "adapt-component",
+        "adapt-animation-hotspot"
     ],
     "license": "GPLv3"
 }
