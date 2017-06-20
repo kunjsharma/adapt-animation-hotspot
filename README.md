@@ -35,7 +35,7 @@ Not identified yet.
 Intended to develop standard Adapt browser/devices specifications. Development of this component is in-progress.
 
 ----------------------------
-**Version number:**  0.0.1 
+**Version number:**  1.0.0 
 **Framework versions:** 2.0.15  
 **Accessibility support:** WAI AA    
 **Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
