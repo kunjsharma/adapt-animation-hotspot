@@ -28,14 +28,14 @@ Development of this component is in-progress.
 
 ### Limitations
 
-Not identified yet. 
+Compatiblity issue with authoring tool, ok with framework.
 
 ### Browser/platform specification
 
 Intended to develop standard Adapt browser/devices specifications. Development of this component is in-progress.
 
 ----------------------------
-**Version number:**  1.0.0 
-**Framework versions:** 2.0.15  
+**Version number:**  1.0.2 
+**Framework versions:** 2.0.3  
 **Accessibility support:** WAI AA    
 **Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
