@@ -12,11 +12,11 @@
     "adapt-animation-hotspot"
   ],
   "license": "GPLv3",
-  "_release": "1.0.0",
+  "_release": "1.0.2",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "c26ab058-af44-4d0e-9ce7-72c4d9d24a66"
+    "commit": "3c933a5f-3234-4c5c-af4e-72a864683486"
   },
   "_source": "git://github.com/kunjsharma/adapt-animation-hotspot.git",
   "_target": "*",

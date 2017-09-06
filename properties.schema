@@ -91,61 +91,6 @@
         }
       }
     },
-    "_highlight": {
-      "type":"object",
-      "required":true,
-      "title": "Highlight",
-      "properties":{
-       "label": {
-          "type": "string",
-          "required": true,
-          "default": "",
-          "validators": [],
-          "help": "ARIA label",
-          "translatable": true
-        },
-       "top": {
-          "type": "string",
-          "required": true,
-          "default": "",
-          "validators": [],
-          "help": "coordinates",
-          "translatable": false
-        },
-       "left": {
-          "type": "string",
-          "required": true,
-          "default": "",
-          "validators": [],
-          "help": "coordinates",
-          "translatable": false
-        },
-       "width": {
-          "type": "string",
-          "required": true,
-          "default": "",
-          "validators": [],
-          "help": "dimension",
-          "translatable": false
-        },
-       "height": {
-          "type": "string",
-          "required": true,
-          "default": "",
-          "validators": [],
-          "help": "dimension",
-          "translatable": false
-        },
-       "border-radius": {
-          "type": "string",
-          "required": "optional",
-          "default": "",
-          "validators": [],
-          "help": "",
-          "translatable": false
-        }
-      }
-    },
     "_feedback": {
       "type":"object",
       "required":true
