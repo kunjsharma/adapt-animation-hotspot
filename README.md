@@ -2,7 +2,7 @@
 
 <img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="150px">
 
-**Animation Hotspot** is a component having images and hotspots over that enables a user to click and display a detailed popup.
+**Animation Hotspot** is a *presentation component* having images that show one by one when it appears in view and hotspots over it. When a learner clicks on a hot spot within the image, a pop-up is displayed.
 
 Development of this component is in-progress.
 
