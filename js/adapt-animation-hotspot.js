@@ -1,6 +1,6 @@
 /*
  * adapt-animation-hotspot
- * License - 
+ * License - GPLv3
  * Maintainers - Kunj B Sharma <kunjsharma@hotmail.com>
  */
 define(function (require) {
@@ -54,13 +54,17 @@ define(function (require) {
                 this.initHotspots();
                 return;
             }
+
             var _oThisLevel0 = this, _nDelay = Number(this.model.get('_delay')), _nTimeOutId;
             this.$(".animation-hotspot-widget").bind('inview', function (event, visible) {
 				if(_oThisLevel0.model.get('isAnimated') == false) {
+
 	                if (visible == true) {
 	                    var _oItem = $(this).find('.animation-hotspot-item img'), _nItems = _oItem.length;
+
 	                    _oItem.each(function (index) {
 	                        var _oThisLevel1 = this;
+
 	                        _nTimeOutId = setTimeout(function() {
 	                            $(_oThisLevel1).animate({
 	                                opacity: 1
@@ -71,7 +75,7 @@ define(function (require) {
 										_oThisLevel0.model.set('isAnimated', true);
 	                                }
 	                            } });
-	                        }, _nDelay * (index/2))
+	                        }, _nDelay * (index/2));
 	                    });
 	                }
 				}
@@ -80,6 +84,7 @@ define(function (require) {
 
         initHotspots: function() {
             var _nHotspots = this.$('.animation-hotspot-hotspot .hotspot').length;
+
             if(_nHotspots>0) {
                 if (this.model.get('_navigation') == 'linear') {
                     this.$('.animation-hotspot-hotspot .hotspot').eq(0).show();
@@ -93,7 +98,6 @@ define(function (require) {
             }else {
                 this.setCompletionStatus();
             }
-            
         },
 
         onHotspotClick: function(event) {

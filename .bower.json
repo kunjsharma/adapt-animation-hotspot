@@ -4,7 +4,7 @@
   "authors": [
     "Kunj B Sharma <kunjsharma@hotmail.com>"
   ],
-  "description": "A component that have images and hotspots over that enables a user to click and display a detailed popup.",
+  "description": "This is a presentation component having images that show one by one when it appears in view and hotspots over it. When a learner clicks on a hot spot within the image, a pop-up is displayed.",
   "main": "/js/adapt-animation-hotspot.js",
   "keywords": [
     "adapt-plugin",
