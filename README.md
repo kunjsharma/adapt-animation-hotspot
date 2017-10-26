@@ -32,7 +32,7 @@ Compatiblity issue with authoring tool, ok with framework.
 
 ### Browser/platform specification
 
-Intended to develop standard Adapt browser/devices specifications. Development of this component is in-progress.
+Intended to develop standard Adapt browser/devices specifications.
 
 ----------------------------
 **Version number:**  1.0.2 
