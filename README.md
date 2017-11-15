@@ -4,8 +4,6 @@
 
 **Animation Hotspot** is a *presentation component* having images that show one by one when it appears in view and hotspots over it. When a learner clicks on a hot spot within the image, a pop-up is displayed.
 
-Development of this component is in-progress.
-
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
