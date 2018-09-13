@@ -2,7 +2,6 @@
   "type":"object",
   "$schema": "http://json-schema.org/draft-04/schema",
   "id": "http://jsonschema.net",
-  "$ref": "http://localhost/plugins/content/component/model.schema",
   "globals": {
     "ariaRegion": {
       "type": "string",
@@ -16,14 +15,12 @@
   "properties":{
     "_supportedLayout": {
       "type": "string",
-      "required": true,
       "enum": ["full-width", "half-width", "both"],
       "default": "both",
       "editorOnly": true
     },
     "instruction": {
       "type": "string",
-      "required": false,
       "default": "",
       "inputType": "Text",
       "validators": [],
@@ -32,7 +29,6 @@
     },
     "_bg": {
       "type": "string",
-      "required": true,
       "default": "",
       "validators": [],
       "help": "Background image requires to display component correctly in responsive.",
@@ -40,7 +36,6 @@
     },
     "_animation": {
       "type": "boolean",
-      "required": true,
       "default": "",
       "validators": [],
       "help": "",
@@ -48,7 +43,6 @@
     },
     "_delay": {
       "type": "number",
-      "required": true,
       "default": "",
       "validators": [],
       "help": "",
@@ -56,7 +50,6 @@
     },
     "_navigation": {
       "type": "string",
-      "required": true,
       "default": "",
       "validators": [],
       "help": "linear/random",
@@ -64,21 +57,17 @@
     },
     "_items": {
       "type":"array",
-      "required":true,
       "title": "Items",
       "help": "Each item represents one choice for the animation frames and contains values for text and _graphic.",
       "items": {
         "type":"object",
-        "required":true,
         "properties":{
           "_graphic": {
             "type":"object",
-            "required":true,
             "title": "Graphic",
             "properties":{
               "alt": {
                 "type":"string",
-                "required":false,
                 "default": "",
                 "title": "Alternative Text",
                 "inputType": "Text",
@@ -93,13 +82,11 @@
     },
     "_hotspots": {
       "type":"array",
-      "required":true,
       "title": "Hotspots",
       "help": "Each item represents one choice for the animation frames and contains values for text and _graphic.",
       "properties":{
         "label": {
           "type":"string",
-          "required":true,
           "title": "Hotspot label",
           "validators": [],
           "help": "The alternative text for this image",
@@ -107,34 +94,28 @@
         },
         "_top": {
           "type":"string",
-          "required":true,
           "translatable": false
         },
         "_left": {
           "type":"string",
-          "required":true,
           "translatable": false
         },
         "_width": {
           "type":"string",
-          "required":true,
           "translatable": false
         },
         "_height": {
           "type":"string",
-          "required":true,
           "translatable": false
         },
         "_borderRadius": {
           "type":"string",
-          "required":true,
           "translatable": false
         }
       }
     },
     "_feedback": {
-      "type":"object",
-      "required":true
+      "type":"object"
     }
   }
 }
