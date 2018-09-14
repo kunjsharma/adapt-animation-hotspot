@@ -4,6 +4,11 @@
 
 **Animation Hotspot** is a *presentation component* having images that show one by one when it appears in view and hotspots over it. When a learner clicks on a hot spot within the image, a pop-up is displayed.
 
+### Installation
+First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
+
+    adapt install animation-hotspot
+
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
