@@ -2,7 +2,7 @@
 
 <img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="150px">
 
-**Animation Hotspot** is a *presentation component* having images that show one by one when it appears in view and hotspots over it. When a learner clicks on a hot spot within the image, a pop-up is displayed.
+A component having hotspots over images that enables learner to click and display a detailed popup.
 
 ### Installation
 First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
