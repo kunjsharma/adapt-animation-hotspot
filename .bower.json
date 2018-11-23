@@ -19,7 +19,7 @@
     "commit": "3c933a5f-3234-4c5c-af4e-72a864683486"
   },
   "_source": "git://github.com/kunjsharma/adapt-animation-hotspot.git",
-  "_target": "*",
+  "_target": ">=0.0.1",
   "_originalSource": "adapt-animation-hotspot",
   "_direct": true
 }
