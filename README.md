@@ -9,6 +9,8 @@ First, be sure to install the [Adapt Command Line Interface](https://github.com/
 
     adapt install animation-hotspot
 
+Or, download the ZIP and extract into the src > extensions directory and run an appropriate Grunt task.
+
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
