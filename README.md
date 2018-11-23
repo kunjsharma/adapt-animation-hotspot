@@ -1,6 +1,6 @@
 # adapt-animation-hotspot  
 
-<img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="150px">
+<img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="400px">
 
 A component having hotspots over images that enables learner to click and display a detailed popup.
 
