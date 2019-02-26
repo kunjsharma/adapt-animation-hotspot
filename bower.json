@@ -1,8 +1,8 @@
 {
     "name": "adapt-animation-hotspot",
     "repository": "https://github.com/kunjsharma/adapt-animation-hotspot.git",
-    "framework": "^2.0.3",
     "version": "2.0.1",
+    "framework": "^3.2.1",
     "homepage": "https://github.com/kunjsharma/adapt-animation-hotspot",
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
