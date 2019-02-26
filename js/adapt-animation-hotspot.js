@@ -55,7 +55,9 @@ define(function (require) {
                 return;
             }
 
-            var _oThisLevel0 = this, _nDelay = Number(this.model.get('_delay')), _nTimeOutId;
+            var _oThisLevel0 = this,
+                _nDelay = Number(this.model.get('_delay')),
+                _nTimeOutId;
             this.$(".animation-hotspot-widget").bind('inview', function (event, visible) {
 				if(_oThisLevel0.model.get('isAnimated') == false) {
 
@@ -101,7 +103,9 @@ define(function (require) {
         },
 
         onHotspotClick: function(event) {
-            var _oTarget = $(event.currentTarget), _nIndex = _oTarget.index(), _oPopup;
+            var _oTarget = $(event.currentTarget),
+                _nIndex = _oTarget.index(),
+                _oPopup;
 
             if(this.model.get('_navigation') == 'linear') {
                 if(!_oTarget.hasClass('visited')) {
