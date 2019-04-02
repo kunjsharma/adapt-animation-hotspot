@@ -9,9 +9,15 @@
   "description": "A component having hotspots over images that enables learner to click and display a detailed popup.",
   "main": "/js/adapt-animation-hotspot.js",
   "keywords": [
+    "adapt",
+    "adapt plugin",
     "adapt-plugin",
+    "adapt component",
     "adapt-component",
-    "adapt-animation-hotspot"
+    "adapt-animation-hotspot",
+    "adapt animation hotspot",
+    "adapt animation",
+    "adapt hotspot"
   ],
   "license": "GPLv3",
   "_release": "2.0.1",
