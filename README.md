@@ -2,7 +2,7 @@
 
 <img src="assets/animation-hotspot.gif" alt="animation-hotspot" align="right" height="400px">
 
-A component having hotspots over images that enables learner to click and display a detailed popup.
+Component having hotspots over the images that enables learner display a detailed popup.
 
 ### Installation
 First, be sure to install the [Adapt Command Line Interface](https://github.com/cajones/adapt-cli), then from the command line run:-
@@ -21,19 +21,19 @@ https://kunjsharma.github.io/#/id/co-05
 
 **_component** (string): This value must be: `animation-hotspot`.
 
-**_animation** (boolean): Whether animation required or not.
+**_animation** (boolean): Animation required or not.
 
-**_delay** (string): Time interval between display of 2 images in milliseconds.
+**_delay** (string): Time interval between frames (ms).
 
 **_navigation** (string): linear or random.
 
-**_bg** (string): Background image reference. v0.0.1 requires it to display component correctly in responsive.
+**_bg** (string): Background image. Required to display component correctly in responsive.
 
-**_items** (array): Each *item* represents one choice for the animation frames and contains values for **_graphic** and **_highlight** if required.
+**_items** (array): Contains values for **_graphic** and **_highlight** for each animation frame.
 
-**_hotspots** (array): Each _hotspot specifies the dimension, position and border radius (optional) of the hotspot.
+**_hotspots** (array): Sets dimension, position, border radius and label.
 
-**_feedback** (array): Feedback popup text opens when click on hotspot.
+**_feedback** (array): Notify popup text (opens when click on hotspot).
 
 ### Limitations
 
@@ -44,7 +44,7 @@ Compatiblity issue with authoring tool, ok with framework.
 Intended to develop standard Adapt browser/devices specifications.
 
 ----------------------------
-**Version number:**  2.0.1 
+**Version number:**  2.0.2 
 **Framework versions:** ^2.0.3  
 **Accessibility support:** WAI AA    
 **Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
