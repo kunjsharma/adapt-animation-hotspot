@@ -47,4 +47,4 @@ Intended to develop standard Adapt browser/devices specifications.
 **Version number:**  2.0.2 
 **Framework versions:** ^2.0.3  
 **Accessibility support:** WAI AA    
-**Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
+**Author/maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
