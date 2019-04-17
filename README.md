@@ -13,7 +13,7 @@ Or, download the ZIP and extract into the src > extensions directory and run an 
 
 ### Demo
 
-https://kunjsharma.github.io/#/id/co-05
+https://kunjsharma.github.io/#/id/co-00
 
 ### Attributes
 
