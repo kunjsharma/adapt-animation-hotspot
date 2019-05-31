@@ -1,6 +1,6 @@
 {
   "name": "adapt-animation-hotspot",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "framework": "^3.2.1",
   "homepage": "https://github.com/kunjsharma/adapt-animation-hotspot",
   "authors": [
@@ -20,14 +20,14 @@
     "adapt hotspot"
   ],
   "license": "GPLv3",
-  "_release": "2.0.1",
+  "_release": "2.1.1",
   "_resolution": {
     "type": "branch",
     "branch": "master",
     "commit": "3c933a5f-3234-4c5c-af4e-72a864683486"
   },
   "_source": "git://github.com/kunjsharma/adapt-animation-hotspot.git",
-  "_target": ">=2.0.3",
+  "_target": ">=3.2.1",
   "_originalSource": "adapt-animation-hotspot",
   "_direct": true
 }
