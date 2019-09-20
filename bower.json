@@ -8,7 +8,7 @@
     "framework": "^4.0.0",
     "homepage": "https://github.com/kunjsharma/adapt-animation-hotspot",
     "authors": [
-        "Kunj B Sharma <kunjsharma@hotmail.com>"
+        "Kunj <kunjsharma@hotmail.com>"
     ],
     "description": "A component having hotspots over images that enables learner to click and display a detailed popup.",
     "main": "/js/adapt-animation-hotspot.js",
